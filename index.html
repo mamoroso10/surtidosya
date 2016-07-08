@@ -1,0 +1,152 @@
+<DOCTYPE! html>
+
+<html>
+<head>
+	
+	<title>Landing 3</title>
+	
+	<link type="text/css" rel="stylesheet" href="prueba css.css"/>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+</head>
+
+    
+    <style>
+
+div.header {width: 100%; height: 80px; background-color: white;}
+
+ul.lista {position: relative; margin-top: 20px; float: right; margin-right: 30px;}
+
+img.logo {width: 70px; height: 70px; float: left; margin-left: 20px; position: absolute; margin-top: 5px;}
+
+video {width: 100%;}
+
+section.video {overflow: hidden; width: 100%; height: 550px; border: 1px solid yellow;}
+
+h1 {position: absolute; margin-top: -350px; color: white; position: absolute; margin-left: 450px; font-size: 70px;}
+
+h3 {position: absolute; margin-top: -250px; color: yellow; position: absolute; margin-left: 450px; font-size: 50px;}
+
+div.contador {width: 100%; height: 60px; border: 1px solid black; position: absolute; margin-top: 2px; background-color: silver;}
+
+body {height: 1200px;}
+
+h2.dentrocontador {position: relative; margin-left: 800px; color: white; position: absolute; margin-top: 10px;}
+
+h2.dentro1 {position: absolute; margin-top: 10px; color: white; margin-left: 50px;}
+
+  img.camara {width: 200px; height: 200px; background-color: green; position: absolute; margin-top: 100px; position: absolute; margin-left: 300px; border-radius: 100px; background-repeat: no-repeat; width: 200px; height: 200px; border: 5px; border-color: green;}  
+
+div.button {position: absolute; margin-top: 310px; position: absolute; margin-left: 350px;}
+button {color: blue; border-color: blue; border-radius: 20px;}
+
+img.imagen2 {width: 190px; height: 190px; background-color: green; position: absolute; margin-top: -230px; position: absolute; margin-left: 300px; border-radius: 100px; background-repeat: no-repeat; width: 200px; height: 200px; border: 5px; border-color: green;}
+
+button.button2 {position: absolute; margin-top: -20px; position: absolute; margin-left: 360px; color: blue; border-color: blue; border-radius: 20px;}
+
+button.boton2 {position: absolute; margin-top: -330px; position: absolute; margin-left: 10px;}
+
+
+img.carro {width: 1100px; height: 600px; position: relative; margin-left: 100px;}
+
+
+    </style>
+
+
+    
+
+
+
+
+    <body>
+
+<div class="header">
+<header>
+	<nav>
+<div class="logo">
+<img class="logo" src="http://www.marshall.edu/ucomm/files/2012/09/MB_0003_video_rec.png"></img>
+</div>
+<ul class="lista">
+			<li class="btn btn-primary">Quienes somos</li>
+			<li class="btn btn-primary">Que hacemos</li>
+			<li class="btn btn-primary">Partners</li>
+			<li class="btn btn-primary">Registrate</li>
+</ul>
+</div>
+</nav>
+</header>
+
+<section class="video">
+
+	<img class="carro" src="https://pixabay.com/static/uploads/photo/2016/01/27/22/10/shopping-1165437_960_720.jpg"></img>
+
+	<h1>No te muevas</h1>
+    <h3>Pedi con un click
+	        </h3> 
+
+	</section>
+
+
+	<div class="contador">
+
+<h2 class="dentro1"><strong>+ de 300.000 CV subidos por mes</strong></h2>
+
+<h2 class="dentrocontador"><strong>+ de 1.200.000 trabajos conseguidos</strongo></h2>
+
+	</div>
+
+
+   <div class="foto1">
+
+<img class="camara" src="http://previews.123rf.com/images/vectorshots/vectorshots1308/vectorshots130800226/21313962-Shooting-Film-with-Movie-Camera-Business-Cartoons-Vectors-Stock-Vector.jpg"></img>
+</div>
+
+<div class="button">
+
+	<button class="boton">No te muevas</button>
+
+</button>
+
+
+<div class="foto2">
+	<img class="imagen2" src="http://www.ionlitio.com/images/2007/06/logos_marcas_comerciales.gif"></img>
+	
+<div class="button">
+
+	<button class="boton2">Empresa?</button>
+
+</div>
+
+<form action="http://send-contact.herokuapp.com/send" method="post">
+
+<input type="hidden" name="toEmail" value="carlos.galdos@gmail.com"></input>
+
+	<input type="hidden" name="toSubjet" value="Afiliacion"> </input>
+
+<input type="hidden" name="toRedirect" value="http://www.devoto.com.uy/aindex.aspx"> </input>
+	
+	<input type="text" name="fromEmail" placeholder="email"> </input>
+	
+<input type="text" name="fromName" placeholder="Nombre"> </input>
+
+
+<input type="hidden" name="fromMessage" value="mensaje del usuario"> </input>
+
+	<input type="submit" value="enviar"></input>
+</form>
+
+
+
+
+	
+
+
+
+
+
+
+
+    </body>
+</html>
